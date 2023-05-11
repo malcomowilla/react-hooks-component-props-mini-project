@@ -1,7 +1,7 @@
 import Article from "./Article";
 
-function ArticleList(){
-    console.log(props)
+function ArticleList(props){
+    
     return(
         <main>
             {props.posts.map((post)=>(
@@ -12,4 +12,4 @@ function ArticleList(){
     )
 }
 
-export default ArticleList
+export default ArticleList 
